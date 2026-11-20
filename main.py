@@ -37,7 +37,6 @@ def encryption(password, username):
     encrypted_credentials = fernet.encrypt(credentials_json.encode("utf-8"))
     return encrypted_credentials
 
-#{'github': b'gAAAAABrAD8deM_BClwacebMxSo5E-zQY-a2hAlOpIng4vrUBKxH6xjay4FKMJFTp6HdY3rs2wX06xqlYIAfEpDw_faIQMJHkQ1wUKj3Dl0vMhP3H8v94zYCufOtGarnkB0F4ESP0dg9'}
 
 
 
